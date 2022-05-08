@@ -1,0 +1,38 @@
+.pink-name {
+  color: rgb(255, 0, 240) !important;
+}
+
+.league-rank {
+  position: relative;
+  background-size: 1.8rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.2rem;
+  display: inline-block;
+  min-width: 1.8rem;
+  height: 1.8rem;
+  margin: 0 0.3rem 0.2rem 0;
+  vertical-align: middle;
+}
+
+.league-rank .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  width: fit-content;
+  min-width: 60px;
+  white-space: nowrap;
+  padding: 5px 5px;
+  pointer-events: none;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+}
+
+.league-rank:hover .tooltiptext {
+  visibility: visible;
+}
